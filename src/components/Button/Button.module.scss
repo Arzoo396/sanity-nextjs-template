@@ -1,0 +1,112 @@
+// // @import 'styles/variables';
+// // @import 'styles/mixins';
+// // @import 'styles/typography';
+
+// .button {
+//   // @include buttonReset;
+//   // @include buttonText;
+
+//   display: inline-block;
+//   padding: rem(8px) rem(28px);
+//   transition: color $transition-standard, border-color $transition-standard, background-color $transition-standard;
+//   border: 2px solid $brand-secondary;
+//   border-radius: 30px;
+//   text-align: center;
+
+//   &__default {
+//     background-color: $brand-secondary;
+//     color: $brand-white;
+//   }
+
+//   &__ghost {
+//     background-color: $brand-white;
+//     color: $brand-secondary;
+//     // text-transform: uppercase;
+//   }
+
+//   &__ghostTransparent {
+//     background-color: transparent;
+//     color: $brand-secondary;
+//   }
+
+//   &__default:hover,
+//   &__default:focus-visible {
+//     border-color: $brand-primary;
+//     background-color: $brand-primary;
+//     color: $brand-white;
+//   }
+
+//   &__default.button__selected {
+//     border-color: $brand-secondary;
+//     background-color: $brand-white;
+//     color: $brand-secondary;
+//   }
+
+//   &__default.button__disabled {
+//     border-color: #fcc4ae;
+//     background-color: #fcc4ae;
+//     color: $brand-white;
+//   }
+
+//   &__ghost:hover,
+//   &__ghost:focus-visible {
+//     border-color: $brand-primary;
+//     color: $brand-primary;
+//   }
+
+//   &__ghost.button__selected {
+//     border-color: $brand-secondary;
+//     background-color: $brand-secondary;
+//     color: $brand-white;
+//   }
+
+//   &__ghost.button__disabled {
+//     border-color: $gray-200;
+//     background-color: $brand-white;
+//     color: $gray-200;
+//   }
+
+//   &__ghostTransparent:hover,
+//   &__ghostTransparent:focus-visible {
+//     border-color: $brand-secondary;
+//     background-color: $brand-secondary;
+//     color: $brand-white;
+//   }
+
+//   &__ghostTransparent.button__selected {
+//     border-color: $brand-secondary;
+//     background-color: $brand-secondary;
+//     color: $brand-white;
+//   }
+
+//   &__ghostTransparent.button__disabled {
+//     border-color: $gray-200;
+//     background-color: transparent;
+//     color: $gray-200;
+//   }
+
+//   &__disabled {
+//     cursor: default;
+//   }
+
+//   &:hover,
+//   &:focus-visible {
+//     text-decoration: none;
+//   }
+// }
+.button {
+    padding: 10px 25px !important;
+    background-color: #bbcb34 !important;
+    transition: all 0.5s ease;
+    color: #004f3a !important;
+    height: 41px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 0;
+    width: 138px;
+    &:hover {
+        background-color: #004f3a !important;
+        transition: all 0.5s ease !important;
+        color: #bbcb34 !important;
+    }
+}
